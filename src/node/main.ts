@@ -377,7 +377,7 @@ function tryFindMetaDataHeaderFile(file: string): string {
 	return result;
 }
 
-export function loadMessageBundle(file?: string): LocalizeFunc {
+export function loadMessageBundle(file?: string, module?: string): LocalizeFunc {
 	if (!file) {
 		// No file. We are in dev mode. Return the default
 		// localize function.
@@ -410,7 +410,6 @@ export function loadMessageBundle(file?: string): LocalizeFunc {
 				}
 			}
 			if (bundle) {
-				let module = file.substr(bundlePath.length + 1).replace(/\\/g, '/');
 				let messages = bundle.nlsBundle[module];
 				if (messages === undefined) {
 					console.error(`Messages for file ${file} not found. See console for details.`);
