@@ -1,0 +1,56 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "../../src/common/ral.ts": {
+        "version": "6cf01409ba00e33f25d7e86de81e95441262ff1df750cbc4492f716fe8145f4d",
+        "signature": "5c7bb5997369b2266142d3df41da94dd31fe3a97b778f43971f3c951a51c0f71",
+        "affectsGlobalScope": false
+      },
+      "../../src/common/common.ts": {
+        "version": "a8b1279efd328bbedb3585152830e425b0be1b41be9b0e12844f0a0104c32636",
+        "signature": "ca318e19fce2e60cc2a7b38b1584aeb5e828f8052ca7dadffb678710e98487f6",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "target": 1,
+      "lib": [
+        "lib.es5.d.ts"
+      ],
+      "module": 1,
+      "moduleResolution": 2,
+      "sourceMap": true,
+      "declaration": true,
+      "declarationMap": true,
+      "stripInternal": true,
+      "composite": true,
+      "types": [],
+      "outDir": "./",
+      "configFilePath": "../../src/common/tsconfig.json"
+    },
+    "referencedMap": {
+      "../../src/common/common.ts": [
+        "../../src/common/ral.ts"
+      ],
+      "../../src/common/ral.ts": [
+        "../../src/common/common.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../../src/common/ral.ts": [
+        "../../src/common/common.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../node_modules/typescript/lib/lib.es5.d.ts",
+      "../../src/common/common.ts",
+      "../../src/common/ral.ts"
+    ]
+  },
+  "version": "3.9.10"
+}

@@ -1,0 +1,73 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "../../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "../common/common.d.ts": {
+        "version": "ca318e19fce2e60cc2a7b38b1584aeb5e828f8052ca7dadffb678710e98487f6",
+        "signature": "ca318e19fce2e60cc2a7b38b1584aeb5e828f8052ca7dadffb678710e98487f6",
+        "affectsGlobalScope": false
+      },
+      "../common/ral.d.ts": {
+        "version": "5c7bb5997369b2266142d3df41da94dd31fe3a97b778f43971f3c951a51c0f71",
+        "signature": "5c7bb5997369b2266142d3df41da94dd31fe3a97b778f43971f3c951a51c0f71",
+        "affectsGlobalScope": false
+      },
+      "../../src/browser/main.ts": {
+        "version": "b224548b695ae3a66d441d3dfa7f6526ecd486d7a2145fbc6c9692b09df52e14",
+        "signature": "86b7af9e25e85fbceb9f0303ae7dbe84fb73a54348f3285bc2bedbecdbc5ac02",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "target": 1,
+      "lib": [
+        "lib.es5.d.ts",
+        "lib.dom.d.ts"
+      ],
+      "module": 1,
+      "moduleResolution": 2,
+      "sourceMap": true,
+      "declaration": true,
+      "declarationMap": true,
+      "stripInternal": true,
+      "composite": true,
+      "types": [],
+      "outDir": "./",
+      "configFilePath": "../../src/browser/tsconfig.json"
+    },
+    "referencedMap": {
+      "../common/ral.d.ts": [
+        "../common/common.d.ts"
+      ],
+      "../../src/browser/main.ts": [
+        "../common/common.d.ts",
+        "../common/ral.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../common/ral.d.ts": [
+        "../common/common.d.ts"
+      ],
+      "../../src/browser/main.ts": [
+        "../common/common.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../common/common.d.ts",
+      "../common/ral.d.ts",
+      "../../node_modules/typescript/lib/lib.dom.d.ts",
+      "../../node_modules/typescript/lib/lib.es5.d.ts",
+      "../../src/browser/main.ts"
+    ]
+  },
+  "version": "3.9.10"
+}
