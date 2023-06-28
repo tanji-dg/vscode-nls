@@ -27,6 +27,7 @@
 	},
 	"scripts": {
 		"prepublishOnly": "npm run clean && npm run compile && npm run lint && npm run test",
+		"postinstall": "tsc -b ./tsconfig.json",
 		"compile": "tsc -b ./tsconfig.json",
 		"watch": "tsc -b ./tsconfig.json -w",
 		"clean": "rimraf lib",
